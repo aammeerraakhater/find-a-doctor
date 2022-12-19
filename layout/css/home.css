@@ -1,0 +1,13 @@
+*, ::after,::before{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+:root{
+    --beige:#d4c0b6;
+    --coffee:#9D8D76;
+    --brown:#7a625b;
+    --latte:#ccae88;
+    --mintGreen:#73c3c3;
+    --darkGreen:#4E837F;
+}

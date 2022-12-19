@@ -1,0 +1,33 @@
+:root{
+    --beige:#d4c0b6;
+    --coffee:#9D8D76;
+    --brown:#7a625b;
+    --latte:#ccae88;
+    --mintGreen:#73c3c3;
+    --darkGreen:#4E837F;
+}
+body{
+    font-family: 'Kaisei Tokumin', serif;
+}
+.Bgform-group{
+    width:80%;
+    margin:auto;
+    margin-top: 40px;
+}
+.loginBgform-group{
+    margin-bottom:12.5%;
+}
+button.submit-btn{
+    background-color: var(--darkGreen);
+    color:var(--white);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left:40%;
+}
+.row{
+   margin-left: 10px;
+   margin-bottom: 40px;
+}
+.medicalSpecialization{
+    padding-left:20px;
+}

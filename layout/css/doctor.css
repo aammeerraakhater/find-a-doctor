@@ -1,0 +1,30 @@
+
+.showdoctorcard{
+    max-width: 60%;
+    margin-top:30px;
+    margin: auto;
+
+}
+img{
+    position:cover;
+}
+.card-body{
+    background: var(--white);
+    margin-top:30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+    a.gobtn{
+    background: var(--darkGreen);
+    color: var(--white);
+    margin-top: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .showdoctorcard{
+        width:90%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

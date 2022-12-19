@@ -1,0 +1,29 @@
+:root{
+    --beige:#d4c0b6;
+    --coffee:#9D8D76;
+    --brown:#7a625b;
+    --latte:#ccae88;
+    --mintGreen:#76A8A8;
+    --darkGreen:#4E837F;
+}
+.navbar-brand{
+    color:var(--brown);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+.navbar{
+    background-color:var(--darkGreen);
+}
+a.dropdown-toggle{
+    background: var(--darkGreen);
+    border: none;
+    color: white;
+}
+a.dropdown-toggle:hover{
+    background: var(--darkGreen);
+    border: none;
+    color: white;
+}
+a.nav-link :active{
+    color:var(--brown);
+}
